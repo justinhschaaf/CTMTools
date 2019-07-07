@@ -1,0 +1,42 @@
+.logos {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25pt auto;
+    width: 75%;
+    min-width: 180pt;
+
+    .logo {
+        width: 180pt; // 120pt;
+        margin: auto;
+    }
+
+}
+
+.ctm_selection {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+    margin: 25pt auto;
+    width: 100%;
+    min-width: 180pt;
+
+    button {
+
+        width: 180pt;
+        height: 60pt; // 120pt
+        margin: 12.5pt;
+
+        background: url("/assets/placeholder.png");
+        background-position: center;
+        background-size: cover;
+
+    }
+
+}
